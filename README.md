@@ -100,16 +100,22 @@
       *  title
         索引擎检索网页时，会主要检索title中的内容，它会影响到页面在搜索引擎中的排名
       *  meta
-```
-用来设置网页的元数据，比如网页使用的字符集
-<meta charset="utf-8" />
-设置网页的关键字
-<meta name="keywords" content="关键字,关键字,关键字,关键字"/>
-设置网页的描述
-<meta name="description" content="网页的描述"/>
-请求的重定向
-<meta http-equiv="refresh" content="秒数;url=地址"  />
-```
+      	*  用来设置网页的元数据，比如网页使用的字符集
+	```
+	<meta charset="utf-8" />
+	```
+	* 设置网页的关键字
+	```
+	<meta name="keywords" content="关键字,关键字,关键字,关键字"/>
+	```
+	* 设置网页的描述
+	```
+	<meta name="description" content="网页的描述"/>
+	```
+	* 请求的重定向
+	```
+	<meta http-equiv="refresh" content="秒数;url=地址"  />
+	```
 * body
     * 网页的主体
     * 网页中所有的可见部分都需要在body中编写
